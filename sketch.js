@@ -88,6 +88,7 @@ function gotResults(error, result) {
     else {
         labels = result[0].label;
         score = result[0].confidence;
+        // EmotionClassify(); calling the function again, but it does not seem to make another classification
         return
     }
 }
